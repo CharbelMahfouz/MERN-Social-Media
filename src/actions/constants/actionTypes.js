@@ -1,0 +1,11 @@
+export const CREATE = "CREATE";
+export const UPDATE = "UPDATE";
+export const DELETE = "DELETE";
+export const FETCH_ALL = "FETCH_ALL";
+export const AUTH = "AUTH";
+export const LOGOUT = "LOGOUT";
+export const LIKE = "LIKE";
+export const EDIT_PROFILE = "EDIT_PROFILE";
+export const START_LOADING = "START_LOADING";
+export const STOP_LOADING = "STOP_LOADING ";
+export const GET_NEW_POST = "GET_NEW_POST ";

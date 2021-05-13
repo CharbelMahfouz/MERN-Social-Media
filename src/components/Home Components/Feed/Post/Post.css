@@ -1,0 +1,148 @@
+.post {
+  width: 80%;
+  color: white;
+  background-color: #242c37;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto 20px auto;
+  transition: 0.3s;
+  box-sizing: content-box;
+  border: 0.5px solid rgba(254, 254, 254, 0.05);
+}
+
+.post__top-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.post__user .MuiAvatar-root {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 8px;
+}
+
+.post__user {
+  display: flex;
+  align-items: center;
+}
+
+.post__user-name {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.post__user-name:hover {
+  text-decoration: underline;
+}
+
+.post__timeStamp {
+  font-size: 10px;
+  opacity: 0.8;
+}
+
+.post__top-text {
+  margin-bottom: 10px;
+}
+
+.post__text {
+  font-size: 14px;
+}
+
+.post__img-container {
+  height: 19rem;
+  width: 100%;
+}
+
+.post__img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.post__stats-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0;
+  align-items: center;
+}
+
+.post__likes {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.post__actions {
+  display: flex;
+}
+
+.post__like-btn {
+  padding: 0.5rem 0.9rem;
+  display: flex;
+  align-items: center;
+  border: 2px solid #6200ee;
+  background: none;
+  color: white;
+  border-radius: 18px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.post__like-btn.liked,
+.post__like-btn:hover {
+  background-color: #6200ee;
+}
+
+.post__like-btn {
+  margin-right: 20px;
+}
+
+.post__like-btn p {
+  margin: 0 5px;
+}
+
+.post__comment-btn p {
+  margin: 0 5px;
+}
+
+.settings-icon {
+  color: white;
+}
+
+.post__bottom {
+  border-top: 0.2px solid white;
+  padding-top: 15px;
+}
+
+@media (max-width: 320px) {
+  .post {
+    width: 18rem;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 500px) {
+  .post {
+    width: 18rem;
+    padding: 15px;
+  }
+
+  .post__img-container {
+    height: 100%;
+  }
+
+  .post__img-container img {
+    object-fit: contain;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 992px) {
+  .post {
+    width: 24rem;
+  }
+}

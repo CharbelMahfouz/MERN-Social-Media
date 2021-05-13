@@ -1,0 +1,27 @@
+.login {
+  height: 100vh;
+  display: flex;
+}
+
+.login__welcome,
+.login__right {
+  height: 100%;
+  flex: 0.5;
+  display: grid;
+  place-items: center;
+}
+
+.login__welcome {
+  color: white;
+  background-color: #121212;
+}
+
+@media screen and (max-width: 769px) {
+  .login__welcome {
+    display: none;
+  }
+
+  .login__right {
+    flex: 1;
+  }
+}

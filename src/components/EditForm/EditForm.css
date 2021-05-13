@@ -1,0 +1,97 @@
+.edit-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  width: 90%;
+  max-width: 535px;
+  max-height: 80vh;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: #151a21;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.edit-form h4 {
+  display: flex;
+  margin-bottom: 10px;
+  color: #dee3ea;
+  font-size: 1.4rem;
+}
+
+.form-group label {
+  margin-bottom: 10px;
+  color: #5d7290;
+}
+
+.edit-form .form-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.edit-form input,
+.edit-form textarea {
+  color: #dee3ea;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #242c37;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+.edit-form-btns {
+  display: flex;
+}
+
+.edit-form-submit-btn {
+  padding: 10px 40px;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  background-color: #5d01df;
+  color: white;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.edit-form-cancel-btn {
+  border: none;
+  background: none;
+  outline: none;
+  text-decoration: underline;
+  font-size: 16px;
+  color: #dee3ea;
+  cursor: pointer;
+}
+
+.edit-profile-pic-container,
+.edit-post-img-container {
+  display: flex;
+  height: 90px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.edit-profile-pic-container .MuiAvatar-root,
+.edit-post-img-container .MuiAvatar-root {
+  height: 100%;
+  width: 90px;
+  cursor: pointer;
+}
+
+#edit-form-input {
+  display: none;
+}
+/* 
+.post-img-preview {
+  background-image: url("public/images/placeholder.jpg");
+} */

@@ -1,0 +1,19 @@
+.home {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.home__components {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 325px 640px;
+}
+
+@media (max-width: 992px) {
+  .home__components .user_info {
+    display: none;
+  }
+  .home__components {
+    grid-template-columns: 0 100%;
+  }
+}

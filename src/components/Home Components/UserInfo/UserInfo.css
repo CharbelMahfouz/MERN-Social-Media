@@ -1,0 +1,39 @@
+.user_info {
+  background-color: #242c37;
+  width: 90%;
+  margin: 0;
+  border-radius: 20px;
+  position: sticky;
+  top: 17%;
+  color: white;
+  padding: 40px 47px 30px 47px;
+  text-align: center;
+  border: 0.5px solid rgba(254, 254, 254, 0.03);
+}
+
+.user-info__container {
+  position: relative;
+}
+
+.user_info .MuiAvatar-root {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* .user__info {
+  padding-top: 40px;
+} */
+
+.user__info-name {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.user__info-email {
+  opacity: 0.8;
+  font-size: 13px;
+}

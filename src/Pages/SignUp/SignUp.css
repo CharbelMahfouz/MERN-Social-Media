@@ -1,0 +1,28 @@
+.signup {
+  height: 100vh;
+  display: flex;
+  color: white;
+}
+
+.signup__welcome,
+.signup__right {
+  flex: 0.5;
+  display: grid;
+  place-items: center;
+  height: 100%;
+}
+
+.signup__welcome {
+  background-color: #121212;
+  color: white;
+}
+
+@media screen and (max-width: 769px) {
+  .signup__welcome {
+    display: none;
+  }
+
+  .signup__right {
+    flex: 1;
+  }
+}

@@ -1,0 +1,62 @@
+.login__form {
+  width: 20.5rem;
+  height: 30rem;
+  padding: 1rem;
+  color: white;
+}
+
+form {
+  width: 100%;
+  height: 100%;
+}
+
+.form__top {
+  text-align: center;
+  padding-bottom: 1.875rem;
+  padding-top: 0.625rem;
+  font-size: 0.8125rem;
+}
+
+.form__top a {
+  color: #6200ee;
+  text-decoration: none;
+}
+
+.form__control {
+  margin-bottom: 2rem;
+}
+
+.form__control input {
+  width: 100%;
+  padding: 0.8rem;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ffff;
+  color: white;
+}
+
+.form__control input:focus {
+  outline: none;
+}
+
+.form__control input::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+
+.form__btn {
+  background-color: #6200ee;
+  display: block;
+  padding: 0.8rem 0;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+}
+
+.form__btn:disabled {
+  opacity: 0.8;
+  background-color: #9458e9;
+  pointer-events: none;
+}
