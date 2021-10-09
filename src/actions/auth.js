@@ -14,6 +14,8 @@ export const signIn = (formData, history) => async (dispatch) => {
     dispatch(stopLoading());
   } catch (err) {
     console.log(err);
+    dispatch(stopLoading());
+
     toast.error(err.response.data.message);
   }
 };
@@ -28,6 +30,8 @@ export const signUp = (formData, history) => async (dispatch) => {
     toast.success("Sign Up Successful");
   } catch (err) {
     console.log(err);
+    dispatch(stopLoading());
+
     toast.error(err.response.data.message);
   }
 };
